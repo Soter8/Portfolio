@@ -1,0 +1,40 @@
+span{
+    margin: 10rem 0 0 0;
+    flex: 100%;
+}
+img{
+    width: 25rem;
+}
+
+header{
+display: flex;
+justify-content: center;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background: url("images/Background.png");
+    background-size: 200rem;
+    margin: -10rem 0 0 0;
+}
+
+
+div{
+    flex:100%;
+}
+
+@media (min-width:800px){
+    div{
+        flex:50%;
+    }
+}
+
+@media (min-width:1100px){
+    div{
+        flex:33%;
+    }
+}
